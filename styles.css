@@ -1,0 +1,40 @@
+body{
+  background: rgb(234, 240, 243);
+}
+h1 {
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+section{
+  display: flex;
+ 
+}
+
+img{
+  width: 120px;
+  height: 200px;
+  margin-right: 30px;
+
+}
+
+body div{
+  background: skyblue;
+  width: 60%;
+}
+
+aside{
+  margin-left: 50%;
+  background: pink;
+  border-radius: 4px;
+  width: 40%;
+  height: 400px
+}
+
+a{
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
