@@ -1,20 +1,60 @@
 body{
-  background: skyblue;
-}
-h1 {
-  font-size: 24px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
+  background: rgb(234, 240, 243);
+  width: auto;
   
 }
 
-section{
+header{
+  background: rgb(101, 201, 101);
+  height: 150px;
   display: flex;
 }
 
-img{
-  width: 120px;
-  height: 200px;
-  margin-right: 30px;
+h1 {
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;  
+}
+
+nav{
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+section{
+  background: rgb(199, 233, 8);
+  display: flex;
+  margin-bottom: 200px;
+}
+
+section img{
+  width: 100px;
+  position: absolute;
+  left: 10px;
+}
+
+section aside{
+  width: auto;
+  position: absolute;
+  right:10px
+}
+
+
+main{
+  position: absolute;
+  margin-bottom: 200px;
+  top: auto;
+  background: rgb(204, 238, 9);
+  /* display: block; */
 
 }
+
+
+
+
+
+
+
+
