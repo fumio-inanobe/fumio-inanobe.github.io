@@ -9,34 +9,64 @@
 </head>
 <body>
   <header>
-    <div>
-      <h1>空　次郎（仮名）</h1>
+    <h1>空　次郎（仮名）</h1>
+
+    <div class="container">
       <nav>
         <p>&lt; Index &gt; </p>
         <ul>
-          <li>My Profile</li>
-          <li>Okuno Hosomichi</li>
-          <li>My Project</li>
+          <li><a href="#profile">My Profile</a></li>
+          <li><a href="#mystory">My thought</a></li>
+          <li><a href="#project">My Project</a></li>
         </ul>
       </nav>
+    </div> 
+
+    <div>
+      <h3 id="profile">My Profile</h3>
+      <details>
+        <ul>
+          <li>プログラミング勉強中</li>
+          <li>茨城県水戸市出身</li> 
+          <li>現在都内に住んでいます</li>
+
+        </ul>
+      </details>
+    </div> 
+
+    <h2>自由に書き込みどうぞ</h2>
+    <textarea></textarea>
+    <h2>PW</h2>
+    <input type="password">
+
+    <h2>What is your favorit color?</h2>
+    <label for="color"></label> Chose your favorit color</label>
+    <select>
+      <option id="color">lime</option>
+      <option>skyblue</option>
+      <option>gray</option>
+      <option>pink</option>
+      <option>purple</option>     
+
+    </select>
+    
+    
+    
+    <div>
+      <img src="img/Basho.jpg" class="basho"
+      width="200"
+      height="320">
 
     </div>
-  </header>
-  <section>
-    <aside>
-       <h3>My Profile</h3>
-       <details>
-         <p>プログラミング勉強中</p>
-         <p>茨城県水戸市出身</p>  
-         <p>現在都内に住んでいます。</p>
-       </details>
-    </aside>
-    <img src="img/Basho.jpg" class="basho">
 
-  </section>
+  </header>
+ 
+  
+
+
 
   <main>
-       <h2>今思うこと</h2>
+       <h2 id="mystory">こころのうち</h2>
       <p>
         コロナ禍において、一日も早い終息を願い、活動の自粛に
         務めていますが、長らく自粛、我慢の日が続いたことによりわたくしの中にも
@@ -51,12 +81,12 @@
         なぜか感動の涙の連続です。また自分の人生の反省しかりです。
         愚痴ばっかりいっている自分が恥ずかしいです。
       </p>
-      
+     
 
   
   
   
-    <h2>My Project</h2>
+    <h2 id="project">My Project</h2>
 
     <h3>（１）旅立ち</h3>
 
@@ -93,11 +123,15 @@
     </p>
 
     <h3>（３）ゲームコーナー</h3>
+   
 
 
   </main>
-
   
   
 </body>
+<footer>
+  <p><a href="#">to page top</a></p>
+
+</footer>
 </html>
