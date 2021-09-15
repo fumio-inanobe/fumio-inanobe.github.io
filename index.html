@@ -9,13 +9,13 @@
 </head>
 <body>
   <header>
-    <h1>空　次郎（仮名）</h1>
+    <h1 title="仮名です。">空　次郎</h1>
 
     <div class="container">
       <nav>
         <p>&lt; Index &gt; </p>
         <ul>
-          <li><a href="#profile">My Profile</a></li>
+          <li><a href="#profile">My Profile(Modal Window)</a></li>
           <li><a href="#mystory">My thought</a></li>
           <li><a href="#project">My Project</a></li>
         </ul>
@@ -23,15 +23,17 @@
     </div> 
 
     <div>
-      <h3 id="profile">My Profile</h3>
-      <details>
+      <h3 id='profile'>My Profile</h3>
+      <button id='open'>Click to open my profile.</button>
+      <section id='modal' class='hidden'>
         <ul>
           <li>プログラミング勉強中</li>
           <li>茨城県水戸市出身</li> 
           <li>現在都内に住んでいます</li>
 
         </ul>
-      </details>
+        <button id='close'>Close</button>
+      </section>
     </div> 
 
     <h2>自由に書き込みどうぞ</h2>
@@ -40,7 +42,7 @@
     <input type="password">
 
     <h2>What is your favorit color?</h2>
-    <label for="color"></label> Chose your favorit color</label>
+    <label for="color"></label> Choose your favorit color</label>
     <select>
       <option id="color">lime</option>
       <option>skyblue</option>
@@ -72,6 +74,12 @@
         務めていますが、長らく自粛、我慢の日が続いたことによりわたくしの中にも
         精神的な閉塞感が出始めています。
         
+      </p>
+      <p>
+        Life is a sort of travel.
+        We came to this world by given a birth by our parents.
+        With helps by our parents we start to walk into our life.
+
       </p>
       <h2>パラリンピック</h2>
       <p>
@@ -128,7 +136,7 @@
 
   </main>
   
-  
+  <script src="js/main.js"></script>
 </body>
 <footer>
   <p><a href="#">to page top</a></p>
